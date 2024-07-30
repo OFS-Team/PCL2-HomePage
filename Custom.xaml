@@ -10,7 +10,7 @@
 		<local:MyListItem Margin="-5,2,-5,8" Logo="pack://application:,,,/images/Blocks/GrassPath.png" Title="启动 Minecraft 1.20.6" Info="点击启动游戏" EventType="启动游戏" EventData="Arcomua Cloth" Type="Clickable" />
 		<local:MyListItem Margin="-5,2,-5,8" Logo="pack://application:,,,/images/Blocks/Grass.png" Title="启动 Minecraft 1.20.6 并进入 OFS" Info="点击启动游戏" EventType="启动游戏" EventData="Arcomua Cloth|mc-survival.ofs-union.eu.org" Type="Clickable" />
 		<local:MyListItem Margin="-5,2,-5,8" Logo="pack://application:,,,/images/Blocks/RedstoneLampOn.png" Title="打开 Minecraft Wiki" Info="点击打开" EventType="打开网页" EventData="https://zh.minecraft.wiki/" Type="Clickable" />
-		<local:MyListItem Margin="-5,2,-5,8" Logo="https://ts2.cn.mm.bing.net/th?id=ODLS.e42d2c4d-ad65-4c7a-b0fd-817a1c3bed01&w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2" Title="打开 Bilibili" Info="点击打开" EventType="打开网页" EventData="https://www.bilibili.com" Type="Clickable" />
+		<local:MyListItem Margin="-5,2,-5,8" Logo="https://ts1.cn.mm.bing.net/th/id/R-C.5f7657549f4bd16d08b56ccad794f01a?rik=%2bXBzOkKWIBMU8A&riu=http%3a%2f%2fwww.kuaipng.com%2fUploads%2fpic%2fw%2f2020%2f07-20%2f89190%2fwater_89190_698_698_.png&ehk=b6FaBHz%2bTBstG7fZg%2fGSVXCcCSqOw3pUcMIZr6QUdZg%3d&risl=&pid=ImgRaw&r=0" Title="打开 Bilibili" Info="点击打开" EventType="打开网页" EventData="https://www.bilibili.com" Type="Clickable" />
 	</StackPanel>
 </local:MyCard>
 

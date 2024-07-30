@@ -5,11 +5,11 @@
 
 <local:MyCard Title="欢迎" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
 	<StackPanel Margin="25,40,23,15">
-		<local:MyHint Text="紧急公告：服务器将更换物理机，预计维护时间24-48h" />
+		<local:MyHint Text="紧急公告：xxxxxxx-test" />
 		<local:MyHint Margin="0,8,0,2" IsWarn="False" Text="温馨提示：在服务器内，请您将自己的基地进行圈地以避免他人偷盗物资/恶意破坏" />
 		<local:MyListItem Margin="-5,2,-5,8" Logo="pack://application:,,,/images/Blocks/GrassPath.png" Title="启动 Minecraft 1.20.6" Info="点击启动游戏" EventType="启动游戏" EventData="Arcomua Cloth" Type="Clickable" />
 		<local:MyListItem Margin="-5,2,-5,8" Logo="pack://application:,,,/images/Blocks/Grass.png" Title="启动 Minecraft 1.20.6 并进入 OFS" Info="点击启动游戏" EventType="启动游戏" EventData="Arcomua Cloth|mc-survival.ofs-union.eu.org" Type="Clickable" />
-		<local:MyButton Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" Text="打开 Minecraft Wiki" EventType="打开网页" EventData="https://zh.minecraft.wiki/" />
+		<local:MyListItem Margin="-5,2,-5,8" Logo="pack://application:,,,/images/Blocks/RedstoneLampOn.png" Title="打开 Minecraft Wiki" Info="点击打开" EventType="打开网页" EventData="https://zh.minecraft.wiki/" Type="Clickable" />
 	</StackPanel>
 </local:MyCard>
 

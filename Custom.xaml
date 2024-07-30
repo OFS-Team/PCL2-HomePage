@@ -18,8 +18,9 @@
                     Text="在 EventData 后面添加一条竖线（|），竖线后填写服务器 IP，即可在启动该版本的同时自动进入服务器。" />
         <local:MyButton Margin="0,4,0,10" Width="250" Height="35"
                     Text="启动 Minecraft 1.20.6" EventType="启动游戏" EventData="Arcomua Cloth" />
-		<local:MyButton Margin="0,4,0,0" Width="250" Height="35"
+	<local:MyButton Margin="0,4,0,0" Width="250" Height="35"
                     Text="启动 Minecraft 1.20.6 并进入 OFS" EventType="启动游戏" EventData="Arcomua Cloth|mc-survival.ofs-union.eu.org" ToolTip="服务器 IP：mc-survival.ofs-union.eu.org" />
+	<local:MyListItem Margin="-5,2,-5,8" Text="启动 Minecraft 1.20.6 并进入 OFS" Logo="pack://application:,,,/images/Blocks/Grass.png" EventType="启动游戏" EventData="Arcomua Cloth|mc-survival.ofs-union.eu.org" Type="Clickable" />
 	</StackPanel>
 </local:MyCard>
 

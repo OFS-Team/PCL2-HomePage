@@ -20,7 +20,7 @@
                     Text="启动 Minecraft 1.20.6" EventType="启动游戏" EventData="Arcomua Cloth" />
 	<local:MyButton Margin="0,4,0,0" Width="250" Height="35"
                     Text="启动 Minecraft 1.20.6 并进入 OFS" EventType="启动游戏" EventData="Arcomua Cloth|mc-survival.ofs-union.eu.org" ToolTip="服务器 IP：mc-survival.ofs-union.eu.org" />
-	<local:MyListItem Margin="-5,2,-5,8" Logo="pack://application:,,,/images/Blocks/Grass.png" Title="启动 Minecraft 1.20.6 并进入 OFS" Info="点击启动游戏" EventData="Arcomua Cloth|mc-survival.ofs-union.eu.org" Type="Clickable" />
+	<local:MyListItem Margin="-5,2,-5,8" Logo="pack://application:,,,/images/Blocks/Grass.png" Title="启动 Minecraft 1.20.6 并进入 OFS" Info="点击启动游戏" EventType="启动游戏" EventData="Arcomua Cloth|mc-survival.ofs-union.eu.org" Type="Clickable" />
 	</StackPanel>
 </local:MyCard>
 

@@ -9,6 +9,7 @@
 		<local:MyHint Margin="0,8,0,2" IsWarn="False" Text="温馨提示：在服务器内，请您将自己的基地进行圈地以避免他人偷盗物资/恶意破坏" />
 		<local:MyListItem Margin="-5,2,-5,8" Logo="pack://application:,,,/images/Blocks/GrassPath.png" Title="启动 Minecraft 1.20.6" Info="点击启动游戏" EventType="启动游戏" EventData="Arcomua Cloth" Type="Clickable" />
 		<local:MyListItem Margin="-5,2,-5,8" Logo="pack://application:,,,/images/Blocks/Grass.png" Title="启动 Minecraft 1.20.6 并进入 OFS" Info="点击启动游戏" EventType="启动游戏" EventData="Arcomua Cloth|mc-survival.ofs-union.eu.org" Type="Clickable" />
+		<local:MyButton Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" Text="打开 Minecraft Wiki" EventType="打开网页" EventData="https://zh.minecraft.wiki/" />
 	</StackPanel>
 </local:MyCard>
 
@@ -28,7 +29,6 @@
                     Text="任意项目都可以添加 Width 与 Height 属性来控制宽高。HorizontalAlignment 属性可以控制对齐：Center 代表居中，Right 代表居右，例如这段文本就被居右了。" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,6"
                     Text="Image 代表图片，你需要在它的 Source 属性中填写一个网址或文件路径，它会从该处获取图片并显示。通常需要使用 Height 限制它的高度。" />
-		<Image Height="50" HorizontalAlignment="Center" Source="https://private-user-images.githubusercontent.com/105694975/341183083-0f614bf8-2341-4716-86aa-5fae8c184415.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjIzMTU1OTIsIm5iZiI6MTcyMjMxNTI5MiwicGF0aCI6Ii8xMDU2OTQ5NzUvMzQxMTgzMDgzLTBmNjE0YmY4LTIzNDEtNDcxNi04NmFhLTVmYWU4YzE4NDQxNS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNzMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDczMFQwNDU0NTJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jYTlkYTA1ZmIwOGYzZWE2ZTJlODQxMGYzOGUzZWYyYWEwZGNmMTRkOWQzNjRjMWM3ZDJmNjQzODUxYjk4NWI2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.t-REEQZji1YENqgKiod6zvRwTZy6N0D5xrwOM3sAfGk" />
 	</StackPanel>
 </local:MyCard>
 

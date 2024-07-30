@@ -8,18 +8,7 @@
 		<local:MyHint Text="紧急公告：服务器将更换物理机，预计维护时间24-48h" />
 		<local:MyHint Margin="0,8,0,2" IsWarn="False"
                     Text="温馨提示：在服务器内，请您将自己的基地进行圈地以避免他人偷盗物资/恶意破坏" />		
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="每个 local:MyCard 代表一张卡片，你可以添加、删除格式类似的 MyCard 来添加多个卡片。每个 TextBlock 代表一段文本，你可以在 Text 属性中书写任何你想写的内容，也可以自行添加更多的 TextBlock。" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="11"
-                    Text="你可以通过添加、删除属性修改样式，例如上一行的 FontSize 就会将字号改为 11 号。" />
-        <TextBlock TextWrapping="Wrap" Margin="20,5,20,0" Foreground="#8C7721"
-                    Text="它还有许多可以调整的属性：上一行的 Margin 调整了边距，Foreground 则会让文字变色。" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="在 EventData 后面添加一条竖线（|），竖线后填写服务器 IP，即可在启动该版本的同时自动进入服务器。" />
-        <local:MyButton Margin="0,4,0,10" Width="250" Height="35"
-                    Text="启动 Minecraft 1.20.6" EventType="启动游戏" EventData="Arcomua Cloth" />
-	<local:MyButton Margin="0,4,0,0" Width="250" Height="35"
-                    Text="启动 Minecraft 1.20.6 并进入 OFS" EventType="启动游戏" EventData="Arcomua Cloth|mc-survival.ofs-union.eu.org" ToolTip="服务器 IP：mc-survival.ofs-union.eu.org" />
+	<local:MyListItem Margin="-5,2,-5,8" Logo="pack://application:,,,/images/Blocks/Grass.png" Title="启动 Minecraft 1.20.6" Info="点击启动游戏" EventType="启动游戏" EventData="Arcomua Cloth" Type="Clickable" />
 	<local:MyListItem Margin="-5,2,-5,8" Logo="pack://application:,,,/images/Blocks/Grass.png" Title="启动 Minecraft 1.20.6 并进入 OFS" Info="点击启动游戏" EventType="启动游戏" EventData="Arcomua Cloth|mc-survival.ofs-union.eu.org" Type="Clickable" />
 	</StackPanel>
 </local:MyCard>

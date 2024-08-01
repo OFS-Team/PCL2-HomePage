@@ -1,7 +1,7 @@
 <local:MyCard Title="OFS欢迎您" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
 	<StackPanel Margin="25,40,23,15">
 		<local:MyHint Margin="0,8,0,2" IsWarn="False" Text="各位玩家，OFS外服预计将于8月1日13:00～13:30对生存一区进行维护&#xA;在此期间您将会遇到无法进入生存一区的问题，为了确保您的游戏内账号数据正常，请您耐心等待维护结束。" />
-		<local:MyHint Margin="0,8,0,2" IsWarn="False" Text="预计维护时长：30min&#xA;维护类型：优化/升级&#xA;维护原因：计划内维护&#xA;当前状态：尚未开始&#xA;补偿CDK：无" />
+		<local:MyHint Margin="0,8,0,2" IsWarn="False" Text="预计维护时长：30min&#xA;维护类型：优化/升级&#xA;维护原因：计划内维护&#xA;当前状态：正在进行&#xA;补偿CDK：无" />
 		<local:MyHint Margin="0,8,0,2" Text="各位玩家，OFS外服预计将于8月2日-3日迁移至物理机&#xA;在此期间您可能会遇到无法进入服务器/不定时断连等问题，请您耐心等待维护结束。" />  
 		<local:MyHint Margin="0,8,0,2" Text="预计维护时长：12-48h&#xA;维护类型：优化/升级&#xA;维护原因：计划内维护&#xA;当前状态：尚未开始&#xA;补偿CDK：尚未公布" />   <!--    -->
 		<local:MyHint Margin="0,8,0,2" IsWarn="False" Text="温馨提示：在服务器内，请您将自己的基地进行圈地以避免他人偷盗物资/恶意破坏" />
